@@ -1,5 +1,5 @@
 {
-  "name": "fiap-nubank-service-wallets",
+  "name": "fiap-nubank-service-incomes",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evelew/fiap-nubank-service-wallets.git"
+    "url": "git+https://github.com/evelew/fiap-nubank-service-incomes.git"
   },
   "author": "Evellyn Lima",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/evelew/fiap-nubank-service-wallets/issues"
+    "url": "https://github.com/evelew/fiap-nubank-service-incomes/issues"
   },
-  "homepage": "https://github.com/evelew/fiap-nubank-service-wallets#readme"
+  "homepage": "https://github.com/evelew/fiap-nubank-service-incomes#readme"
 }
