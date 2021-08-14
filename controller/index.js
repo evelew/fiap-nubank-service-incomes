@@ -1,5 +1,4 @@
-require('module-alias/register')
-const getAll = require('@services/get-all')
+const getAll = require('./../services/get-all')
 
 module.exports = (express) => {
   let api = express.Router()
