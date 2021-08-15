@@ -1,10 +1,13 @@
 const express = require('express')
+const cors = require('cors')
 const app = express()
 const port = 3001
 const controller = require('./controller')(express)
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
+
+app.use(cors())
 
 app.use('/', controller)
 
