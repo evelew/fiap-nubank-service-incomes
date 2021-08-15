@@ -11,6 +11,7 @@ app.use(cors({
   origin: 'http://localhost:8100',
   methods: 'GET, PUT, POST'
 }))
+app.options('*', cors())
 
 app.use('/', controller)
 
